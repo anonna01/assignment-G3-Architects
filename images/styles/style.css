@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;   
+}
+/*css variables*/
+:root{
+    --navbar-height:26px;
+}
+
+/*navigation bar*/
+#navbar{
+    display: flex;
+    align-items: center;
+   
+}
+/*Navigation bar :list styling*/
+#navbar ul{
+    display:flex;
+    
+}
+#navbar::before{
+    content:"";
+    background-color:blue;
+    position:absolute;
+    height:26px;
+    width:477px;
+
+
+}
+
+#navbar ul li{
+   
+    list-style:none;
+    font-size:1.3rem;
+}
+#navbar ul li a{
+    color:#424242;
+    display:block;
+    padding:3px 22px;
+    border-radius:20px;
+    text-decoration: none;
+
+}
